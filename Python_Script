@@ -82,6 +82,7 @@ for url in web_link2:
 browser.quit()
 
 # This is the end of the script
+
 # If you appreciate our hard work, please endorse us through linkedin!
 # Linkedin:
 # Yeung Wong (https://www.linkedin.com/in/yeungwong/)
