@@ -1,0 +1,88 @@
+
+#######################
+# Project Description #
+#######################
+
+# This project is to scrap the list of symbols for Hong Kong Stock Exchange (HKEX)
+# and to scrap the Hong Kong stock data from Yahoo Finance website by downloading them as csv file
+
+#----------------------#
+# Part 0 - Preliminary #
+#----------------------#
+
+import urllib2
+from bs4 import BeautifulSoup
+import pandas as pd
+from selenium import webdriver
+from datetime import date
+import time
+
+#---------------------#
+# Part 1 - Stock List #
+#---------------------#
+
+url = "http://eoddata.com/stocklist/HKEX.htm"
+page = urllib2.urlopen(url)
+soup = BeautifulSoup(page, "lxml")
+
+A = []
+B = []
+Column_Name_List = []
+for row in right_table.findAll("tr"):
+    column_name = row.findAll('th')
+    if len(column_name) > 0:
+        number_of_column = len(column_name)
+        for i in range(number_of_column):
+            Column_Name_List.append(column_name[i].find(text = True))
+    cell = row.findAll('td')
+    if len(cell) > 0:
+        A.append(cell[0].find(text=True))
+        B.append(cell[1].find(text=True))
+df = pd.DataFrame(A, columns = [Column_Name_List[0]])
+df[Column_Name_List[1]] = B
+for j in range(len(df)):
+    df['Code'][j] = df['Code'][j][1:]
+    
+#----------------------#
+# Part 2 - Stock Price #
+#----------------------#
+
+stock_index = df['Code']
+stock_index_web = df['Code']
+web_link = "https://finance.yahoo.com/quote/" + stock_index_web + ".HK/history"
+
+OUTPUT_PATH = 'D:/Output/'
+chromeOptions = webdriver.ChromeOptions()
+prefs = {"download.default_directory" : OUTPUT_PATH}
+chromeOptions.add_experimental_option("prefs",prefs)
+LOAD_PATH = "D:/Chrome Driver/"
+LOAD_FILE = LOAD_PATH + 'chromedriver.exe'
+browser = webdriver.Chrome(executable_path = LOAD_FILE, chrome_options = chromeOptions)
+
+max_button_xpath = '//*[@id="Col1-1-HistoricalDataTable-Proxy"]/section/div[1]/div[1]/div[1]/span[2]/div/div[1]/span[8]/span'
+time_button_xpath = '//*[@id="Col1-1-HistoricalDataTable-Proxy"]/section/div[1]/div[1]/div[1]/span[2]/span/input'
+done_button_xpath = '//*[@id="Col1-1-HistoricalDataTable-Proxy"]/section/div[1]/div[1]/div[1]/span[2]/div/div[3]/button[1]'
+apply_button_xpath = '//*[@id="Col1-1-HistoricalDataTable-Proxy"]/section/div[1]/div[1]/button'
+download_button_xpath = '//*[@id="Col1-1-HistoricalDataTable-Proxy"]/section/div[1]/div[2]/span[2]/a/span'
+
+for url in web_link2:
+    browser.get(url)
+    time.sleep(2)
+    browser.implicitly_wait(5)
+    browser.find_element_by_xpath(time_button_xpath).click()
+    browser.find_element_by_xpath(max_button_xpath).click()
+    browser.find_element_by_xpath(done_button_xpath).click()
+    browser.find_element_by_xpath(apply_button_xpath).click()
+    time.sleep(2)
+    browser.implicitly_wait(5)
+    browser.find_element_by_xpath(download_button_xpath).click()
+    time.sleep(2)
+    browser.refresh()
+    
+browser.quit()
+
+# This is the end of the script
+# If you appreciate our hard work, please endorse us through linkedin!
+# Linkedin:
+# Yeung Wong (https://www.linkedin.com/in/yeungwong/)
+# Carrie Lo (https://www.linkedin.com/in/carrie-lo-383980b3/)
