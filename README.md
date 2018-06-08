@@ -12,7 +12,7 @@ Linkedin:
 * Carrie Lo - *https://www.linkedin.com/in/carrielsc/*
 ---------------------------------------------------------------------------------------------
 ## Project Description
-This project is to scrap Hong Kong Hang Seng 50 Index stock data from Yahoo Finance website (https://finance.yahoo.com/) by downloading them as csv file
+This project is to scrap Hong Kong Hang Seng 50 Index stock data from Yahoo Finance website *https://finance.yahoo.com/* by downloading them as csv file
 
 # Data Visualization
 We have built a PowerBI Dashboard. If you are interested, please go to the following website:
