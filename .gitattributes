@@ -1,3 +1,3 @@
 *.html linguist-detectable=false
+*.ipynb linguist-detectable=false
 *.R linguist-detectable=true
-*.ipynb linguist-detectable=true
