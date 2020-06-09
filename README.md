@@ -21,7 +21,7 @@ https://medium.com/financial-data-analysis/step-1-web-scraping-hong-kong-hsi-sto
 
 We leverage the package "Selenium" to mimic human operations such as click, hover, scroll up and down.
 
-You may check the R script here and the Python code [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cydalytics/Stock_Price_Scraping/master/Script%20Markdown%20(HTML).html).
+You may check the R script [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cydalytics/Stock_Price_Scraping/master/R_Stock_Price_Scraping.R) and the Python code [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cydalytics/Stock_Price_Scraping/master/Python_Stock_Price_Scraping.html).
 
 ## Demonstration
 Example of Scraping Process
