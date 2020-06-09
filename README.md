@@ -16,8 +16,7 @@ This project is to scrape the Hong Kong Hang Seng 50 Index stock data from Yahoo
 
 ## Project Details
 The code is specific for the use of the topic "Financial Data Analysis".
-To check the tutorial article, please find the link below:
-https://medium.com/financial-data-analysis/step-1-web-scraping-hong-kong-hsi-stock-price-7d8606c07c57?source=friends_link&sk=386d4f84d09400813970facae9d69ce4
+To check the tutorial article, please click [here](https://medium.com/financial-data-analysis/step-1-web-scraping-hong-kong-hsi-stock-price-7d8606c07c57?source=friends_link&sk=386d4f84d09400813970facae9d69ce4)
 
 We leverage the package "Selenium" to mimic human operations such as click, hover, scroll up and down.
 
