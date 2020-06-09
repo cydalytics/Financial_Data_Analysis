@@ -60,3 +60,4 @@ stock_df = data.frame(matrix(master_dt$Close, ncol = 47))
 colnames(stock_df) = master_dt$Index[!duplicated(master_dt$Index)]
 stock_df = cbind(Date = master_dt$Date[!duplicated(master_dt$Date)], stock_df)
 write.csv(stock_df, "stock_df.csv", row.names = F)
+ 
