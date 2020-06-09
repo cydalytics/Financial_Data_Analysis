@@ -23,6 +23,10 @@ We leverage the package "Selenium" to mimic human operations such as click, hove
 
 You may check the R script here and the Python code here.
 
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+
 ## Demonstration
 ![alt text](https://miro.medium.com/max/1400/1*ylgrDDCbMOpg1Uk8VabvAw.gif)
 
