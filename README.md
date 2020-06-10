@@ -1,4 +1,4 @@
-# Hang Seng 50 Index Stock Price Scraping [![R & Python](https://img.shields.io/badge/Program-R & Python-BLUE)](https://cydalytics.blogspot.com/) [![Selenium](https://img.shields.io/badge/Package-Selenium-GREEN)](https://cydalytics.blogspot.com/)
+# Hang Seng 50 Index Stock Price Scraping [![R & Python](https://img.shields.io/badge/Program-R%20&%20Python-BLUE)](https://cydalytics.blogspot.com/) [![Selenium](https://img.shields.io/badge/Package-Selenium-GREEN)](https://cydalytics.blogspot.com/)
 *<b>Created by cyda - Yeung Wong & Carrie Lo</b>*
 ![alt text](https://2.bp.blogspot.com/-JDCofS2Pvic/WxQCv_XstyI/AAAAAAAAABM/rWHKnG4ItnMULgmO_tWAuGTNL6kAexJlACK4BGAYYCw/s1000/tight%2Bbanner.png)
 
