@@ -1,4 +1,4 @@
-# Test <img src="https://cdn-images-1.medium.com/max/92/1*7SJIo6rSUlkbVbcHFuYphQ@2x.png" alt="" width="120" align="right" />
+# Test <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="120" align="right" />
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis build
