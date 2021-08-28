@@ -1,4 +1,4 @@
-# Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/) <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="https://medium.com/financial-data-analysis/" width="100" align="left" />
+# Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/) [<img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="100" align="left" />](https://medium.com/financial-data-analysis/)
 
 *<b>Created by cyda - Carrie Lo & Yeung Wong</b>*
 [![alt text](https://2.bp.blogspot.com/-JDCofS2Pvic/WxQCv_XstyI/AAAAAAAAABM/rWHKnG4ItnMULgmO_tWAuGTNL6kAexJlACK4BGAYYCw/s1000/tight%2Bbanner.png)](https://cydalytics.blogspot.com/)
