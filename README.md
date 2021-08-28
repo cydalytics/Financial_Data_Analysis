@@ -14,7 +14,19 @@ Linkedin:
 ## Project Description
 This project is to work on different analysis towards financial data.
 
-## Project Example
+1. Getting Data
+2. Performance Analysis
+3. Fundamental Analysis
+4. Portfolio Optimization
+5. Price Prediction
+6. Algorithm Trading
+
+## Getting Data
+[Web Scraping Hong Kong HSI Stock Price with Rselenium (R)](https://medium.com/financial-data-analysis/step-1-web-scraping-hong-kong-hsi-stock-price-7d8606c07c57?source=friends_link&sk=386d4f84d09400813970facae9d69ce4)
+
+[![alt text](https://miro.medium.com/max/2400/1*ylgrDDCbMOpg1Uk8VabvAw.gif)](https://medium.com/financial-data-analysis/step-1-web-scraping-hong-kong-hsi-stock-price-7d8606c07c57?source=friends_link&sk=386d4f84d09400813970facae9d69ce4)
+
+## Price Prediction
 [Multiple Cryptocurrencies Pricing Prediction using LSTM (Python)](https://medium.com/financial-data-analysis/multiple-cryptocurrencies-pricing-prediction-using-lstm-python-a8e864176604?source=friends_link&sk=d9102dc03670cb29b265e88b88a0bc6c)
 
 [![alt text](https://miro.medium.com/max/2400/1*Bduw3AnRhgxUvXfsSjyV9g.png)](https://medium.com/financial-data-analysis/multiple-cryptocurrencies-pricing-prediction-using-lstm-python-a8e864176604?source=friends_link&sk=d9102dc03670cb29b265e88b88a0bc6c)
