@@ -1,4 +1,4 @@
-# Test <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="120" align="right" />
+# Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/) <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="120" align="right" />
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis build
