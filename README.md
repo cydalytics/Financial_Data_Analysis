@@ -1,12 +1,5 @@
 # Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/) <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="120" align="right" />
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build
-status](https://travis-ci.org/ewenme/understatr.svg?branch=master)](https://travis-ci.org/ewenme/understatr)
-
-#===============
-
-# Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/)
 *<b>Created by cyda - Carrie Lo & Yeung Wong</b>*
 [![alt text](https://2.bp.blogspot.com/-JDCofS2Pvic/WxQCv_XstyI/AAAAAAAAABM/rWHKnG4ItnMULgmO_tWAuGTNL6kAexJlACK4BGAYYCw/s1000/tight%2Bbanner.png)](https://cydalytics.blogspot.com/)
 
