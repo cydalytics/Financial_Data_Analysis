@@ -1,16 +1,16 @@
 # Financial Data Analysis [![R](https://img.shields.io/badge/Program-R-BLUE)](https://medium.com/financial-data-analysis/) [![Python](https://img.shields.io/badge/Program-Python-BLUE)](https://medium.com/financial-data-analysis/) [<img src="https://cdn-images-1.medium.com/fit/c/200/200/1*7SJIo6rSUlkbVbcHFuYphQ.png" alt="" width="100" align="left" />](https://medium.com/financial-data-analysis/)
 
-*<b>Created by cyda - Carrie Lo & Yeung Wong</b>*
+*<b>Created by cyda - Yeung Wong & Carrie Lo</b>*
 [![alt text](https://2.bp.blogspot.com/-JDCofS2Pvic/WxQCv_XstyI/AAAAAAAAABM/rWHKnG4ItnMULgmO_tWAuGTNL6kAexJlACK4BGAYYCw/s1000/tight%2Bbanner.png)](https://cydalytics.blogspot.com/)
 
 ---------------------------------------------------------------------------------------------
-### Please acknowledge <b>team cyda - Carrie Lo and Yeung Wong</b> when using the code
+### Please acknowledge <b>team cyda - Yeung Wong and Carrie Lo</b> when using the code
 
 ### If you find this script is helpful, please feel free to endorse us through Linkedin!
 Linkedin:
 
-* Carrie Lo - *https://www.linkedin.com/in/carrielsc/*
 * Yeung Wong - *https://www.linkedin.com/in/yeungwong/*
+* Carrie Lo - *https://www.linkedin.com/in/carrielsc/*
 ---------------------------------------------------------------------------------------------
 ## Project Description
 This project is to work on different analysis towards financial data.
